@@ -1,7 +1,11 @@
 module.exports = {
-  entry: "./src/index.tsx",
+  entry: {
+    "actions": "./src/renderer/actions/action.ts",
+    "component": "./src/renderer/components/todo.ts",
+    "reducer": "./src/renderer/reducers/reducer.ts"
+  },
   output: {
-    filename: "bundle.js",
+    filename: "[name].js",
     path: __dirname + "/dist"
   },
 
