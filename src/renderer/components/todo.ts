@@ -4,3 +4,7 @@ export class Todo {
 
   }
 }
+
+export class List {
+  todos: { [key: number]: Todo } = {};
+}
