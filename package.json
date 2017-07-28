@@ -12,7 +12,7 @@
   "author": "YoshinoriN",
   "license": "ISC",
   "dependencies": {
-    "@types/react": "^15.0.38",
+    "@types/react": "^15.6.0",
     "@types/react-dom": "^15.5.1",
     "@types/react-redux": "^4.4.47",
     "@types/react-router": "^4.0.14",
@@ -24,10 +24,11 @@
     "redux": "^3.7.2"
   },
   "devDependencies": {
-    "@types/material-ui": "^0.17.17",
-    "awesome-typescript-loader": "^3.2.1",
+    "@types/material-ui": "^0.17.19",
+    "awesome-typescript-loader": "^3.2.2",
     "source-map-loader": "^0.2.1",
     "typescript": "^2.4.2",
-    "webpack": "^3.3.0"
-  }
+    "webpack": "^3.4.1"
+  },
+  "repository": "https://github.com/YoshinoriN/react-redux-typescript-study.git"
 }
