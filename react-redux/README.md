@@ -1,6 +1,6 @@
 ```sh
-yarn init
-yarn add redux --dev
-yarn add webpack --dev
-yarn add source-map-loader --dev
+npm init
+npm install --save @types/redux
+npm install --save-dev webpack
+npm install --save-dev source-map-loader
 ```
